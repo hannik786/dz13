@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f4f5f7;
+  color: #222;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  display: grid;
+  gap: 24px;
+}
+.card {
+  background: #fff;
+  padding: 20px 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+.card h2 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #555;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.gallery figure {
+  margin: 0;
+  flex: 1 1 200px;
+}
+.gallery img {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+}
+.gallery figcaption {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 4px;
+}
+.reviews {
+  padding-left: 20px;
+}
